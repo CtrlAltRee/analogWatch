@@ -36,6 +36,7 @@ body{
     width: 100%;
     height: 100%;
     text-align: center;
+    font-weight: 900;
     transform: rotate(var(--rotation));
 }
 
@@ -117,9 +118,17 @@ body{
     left: 665px;
     bottom: -75px;
     border-radius: 0 0 10px 10px;
-    color: #725835;
+    color: #694f2d;
     font-weight: bold;
     text-align: center;
-    padding-top: 120px;
+    padding-top: 140px;
     text-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+    text-align: center;
+    color: rgb(197, 194, 194);
+    margin: 110px;
+    font-weight: 400;
+    font-size: 14px;
 }
